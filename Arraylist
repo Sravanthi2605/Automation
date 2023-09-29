@@ -1,0 +1,33 @@
+package Arraylist;
+
+import java.util.ArrayList;
+
+public class First {
+
+	private static final String Rahul = null;
+
+	@SuppressWarnings("unchecked")
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList a1=new ArrayList();
+		//add objects
+		a1.add("java");
+		a1.add(true);
+		a1.add(50000);
+		a1.add(988706479);
+		a1.add(876.787878F);
+		a1.add('@');
+		a1.add(null);
+	//tostring(),forloop,for eachloop,cursors
+		System.out.println(a1.toString());
+		a1.add("python");
+		a1.add(new Object());
+		a1.add(new Object ());
+		
+	
+		
+		
+
+	}
+
+}
