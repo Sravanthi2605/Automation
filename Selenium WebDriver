@@ -1,0 +1,18 @@
+package seleniumWebDriver;
+
+import seleniumWebDriver.locajava.WebDriverManager;
+
+public class locajava {
+	public class WebDriverManager {
+
+		public static Object Chromedriver;
+
+	}
+
+	public static void main(String[] args) {
+		  WebDriverManager.Chromedriver)).Setup();
+		  WebDriverManager driver = new Chromedriver();
+		  
+		
+	}
+}
