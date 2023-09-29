@@ -1,0 +1,71 @@
+package Operators;
+
+public class Arthemeticoperators {
+
+	public static void main(String[] args) {
+		int a = 10;
+		int b=20;
+		System.out.println("sum of two numbers" +(a+b));
+		System.out.println("Differences of two numbers " +(b-a));
+		System.out.println("Multiply of two numbers" +(a*b));
+		System.out.println("Divided of two numbers" +(a%b) );
+		System.out.println("by of two numbers" +(b/a));
+		
+		//comparision operators or relational operators-==,<=,>=!=
+		System.out.println(a==b);
+		System.out.println(a>=b);
+		System.out.println(a<=b);
+		System.out.println(a!=b);
+		
+
+        //Logical Operators -&&(and),||(or),!(not)
+		
+		boolean x=true;
+		boolean y=false;
+		System.out.println(" "+  (x&&y));
+		System.out.println("  " +(x||y));
+		
+		System.out.println("  " +(!x));
+		System.out.println("  " +(!y));
+		
+		//increment / decrement operators
+		
+		System.out.println(a=a+1);
+		System.out.println(a++);
+		System.out.println(b++);
+		System.out.println(++a);
+		System.out.println(++b);
+		System.out.println(a=a-1);
+		System.out.println(a--);
+		System.out.println(b--);
+		System.out.println(--a);
+		System.out.println(--b);
+		
+		String s = "welcome";
+		String s1 = "kbk";
+	    String s2 = "mamatha mam";
+	    String s3 = "sravanthi";
+	    System.out.println("  " +(s2+s3));
+	    System.out.println("  " +(s+s1)+(s1+s2)+(s2+s3));
+	    System.out.println(s1+s3);
+	    System.out.println(s+s2);
+	    System.out.println(s+s1+s2+s3);
+	    
+	    
+	   // Assignment Operators -=,+=,-=,/=,%=
+	    System.out.println("  " +(a+=b) );
+	    System.out.println("  " +(a-=b));
+		System.out.println("    "+(a/=b) );
+		System.out.println("  " +(a%b));
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
