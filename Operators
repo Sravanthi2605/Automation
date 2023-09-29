@@ -1,0 +1,23 @@
+package Operators;
+
+public class Operatorstypes {
+	//operators.......3 types
+	//Arithmetic Operators
+	//Logical Operators
+	//Incremental Operator
+	
+	//Arithmetic Operator
+	int a=10;
+	int b=20;
+	
+//	System.out.println("sum of two numbers"
+	//System.out.println(a-b); //8
+	//System.out.println(a*b); //20
+	//System.out.Println(a/b); //5
+	//System.out.println(a%b); //10
+		
+	
+	
+	
+
+}
