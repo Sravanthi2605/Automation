@@ -1,0 +1,22 @@
+package Login;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class XPath {
+
+	public static void main(String[] args) {
+		
+	WebDriverManager.chromedriver().setup();
+	WebDriver driver = new ChromeDriver();
+	driver.get("https://kbkhospitals.com/pharma-dev/Staff");
+	driver.findElement(By.xpath("//*@id='filter-option pull-left')")).sendKeys("button");
+	
+		
+
+	}
+
+}
