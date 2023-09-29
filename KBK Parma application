@@ -1,0 +1,25 @@
+package com.kbkpharma;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class pharmacyapplication {
+
+	public static void main(String[] args) {
+	
+	WebDriverManager.chromedriver().setup();
+	WebDriver driver = new ChromeDriver();
+	driver.get("https://kbkhospitals.com/pharma-dev/Staff");
+	driver.manage().window().maximize();
+	driver.findElement(By.name("username")).sendKeys("staff");
+	driver.findElement(By.name("password")).sendKeys("Staff@2022");
+	driver.findElement(By.name("insert")).click();
+	driver.close();
+	
+	}
+
+	}
+
