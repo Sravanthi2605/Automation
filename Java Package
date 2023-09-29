@@ -1,0 +1,18 @@
+package javautil;
+
+import java.util.Scanner;
+
+public class reversecount {
+	public static void main(String[] args) {
+		int num ;
+		Scanner sc = new Scanner (System.in);
+		System.out.print(123456789);
+		num = sc.nextInt();
+		for(num = 10;num>0; num ++)
+		{
+		System.out.print(123456789);
+		}
+		
+	}
+
+}
