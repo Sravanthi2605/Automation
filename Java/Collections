@@ -1,0 +1,11 @@
+package Collection;
+
+import java.util.ArrayList;
+
+public class second {
+	public static void main(String[] args) {
+		ArrayList a1=new ArrayList();//10
+		a1.add("Java");
+		a1.add(true);
+		a1.add(66.76F);
+		a1.add(786465432);
