@@ -1,0 +1,18 @@
+package java;
+
+public class sele {
+
+	public static void main(String[] args) {
+		String s [] = new String [5];
+		//Initialization //Array name[Index]
+		s[0] = "srav";
+		s[1] = "honey";
+		s[2] = "nanu";
+		s[3] = "pavani";
+		s[4] = "hanuma";
+		//Utilization  //s.o.p [Array name[Index]
+		System.out.println(s[0]);
+		System.out.println(s[1]);
+		System.out.println(s[2]);
+		System.out.println(s[3]);
+		System.out.println(s[4]);
